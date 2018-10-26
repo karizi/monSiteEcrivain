@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(64, 200, 130, 0.15);
+}
+.jumbotron{
+    font-style: italic;
+}
+
+
+.final-price{
+    padding-top: 5px;
+    color: rgb(79, 20, 81);
+}
+.card-text{
+    font-size: 12px;
+}
+
+#card1{
+    background-image: url('../../assets/images/imageLivre.jpg');
+    background-size: cover;
+}
+
+#imgTete{
+    background-image: url('../../assets/images/vague.PNG');
+}
