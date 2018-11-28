@@ -1,10 +1,9 @@
 <?php
     require 'partials/_header.php' ;
-    include ('partials/_nav.php');
 ?>
 
 
-<div class="container-fluid">
+
     <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
@@ -14,7 +13,6 @@
 
             <form method="post" class="mt-5">
                 <div>
-                    <!--                    <input type="text" name="title" class="form-control" placeholder="Titre à saisir" required="required"/>-->
                     <textarea type="text" rows="2" cols="100" name="title"  placeholder="Titre à saisir" required="required" ></textarea>
                 </div>
 
@@ -26,6 +24,7 @@
                     </div>
                 </div>
             </form>
+
+
         </div>
     </div>
-</div>

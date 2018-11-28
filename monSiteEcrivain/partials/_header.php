@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 
-    <title>Mon site Hicham BOUSSELHAMt</title>
+    <title>Mon site Hicham BOUSSELHAM</title>
 </head>
 
 <body>
 
-
-
-<?php include ('partials/_flash.php');?>
+<?php include ('partials/_nav.php'); ?>
+<div class="container-fluid">

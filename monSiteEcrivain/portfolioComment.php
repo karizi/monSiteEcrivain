@@ -1,9 +1,10 @@
-
 <?php
+
 
 session_start();
 
 include('filters/auth_filter.php');
+
 
 
 require('config/database.php');
@@ -43,12 +44,10 @@ if(isset($_POST['commenter'])) {
         set_flash("Votre commentaire a bien été enregistrer !", 'success');
 
         $comments = getCommentsPortf1();
-        header("Location: portfolio.php?id=<?= get_session('user_id')");
+        header("Location: portfolioComment.php?id=<?= get_session('user_id')");
     } else {
         set_flash("Erreur d'enregistrement", 'danger');
     }
 
 }
-
-
-require('views/portfolio.view.php');
+require 'views/portfolioComment.view.php';

@@ -3,16 +3,16 @@
 
     $title = "Connextion";
 
-    include ('partials/_header.php');
-
-    include ('partials/_nav.php');
-
+require ('partials/_header.php');
+require('partials/_flash.php');
 ?>
-<div class="container-fluid">
+<br>
+<br>
+<br>
     <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-        <h2 class="mt-5">Connexion !</h2>
+        <h2 class="m-3">Connexion !</h2>
 
             <?php include('partials/_errors.php')?>
 
@@ -35,7 +35,7 @@
 
         </div>
     </div>
-</div>
+
 
 
 <?php include ('partials/_footer.php');?>

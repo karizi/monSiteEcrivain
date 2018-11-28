@@ -2,16 +2,17 @@
 <?php
     $title = "Inscription";
     include ('partials/_header.php');
-    include ('partials/_nav.php');
+    include ('partials/_flash.PHP');
 ?>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6">
 
-            <h2>Inscrivez-vous!</h2>
+    <div class="row mb-5">
+        <div class="col-3 "></div>
+        <div class="col-6 ">
 
+            <h2 class="mt-5">Inscrivez-vous!</h2>
+
+<!--   POUR AFFICHER LES ERREURS -->
             <?php include('partials/_errors.php')?>
 
             <form method="post" class="jumbotron">
@@ -45,7 +46,7 @@
 
         </div>
     </div>
-</div>
+
 
 
 
